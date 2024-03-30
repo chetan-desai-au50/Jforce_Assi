@@ -1,0 +1,36 @@
+
+
+
+
+.myPost_container{
+    width: 280px;
+    height: 460px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: scroll;
+}
+.myPost_container::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.mypost{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    height: auto;
+    width: 240px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.mypost_min{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+.buttonmp{
+    border: 1.2px solid black;
+}
